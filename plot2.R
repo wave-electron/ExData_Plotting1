@@ -61,7 +61,7 @@ dev.copy(png, file = "plot2.png", width = 480, height = 480, units='px') # Copy 
 # Plot line graph 
 with(dt.2007, plot(dt.2007$DateTime,dt.2007$Global_active_power, ylab = "Global Active Power (kilowatts)", xlab="",type = "l"))
 
-#close the PDF file device # Close the PNG device
+ # Close the PNG device
 dev.off()  
 
 
