@@ -82,7 +82,7 @@ legend("topright", lty = "solid", col = c("black", "red", "blue"), legend = c("S
 
 with(dt.2007, plot(dt.2007$DateTime,dt.2007$Global_reactive_power,col = "black", type = "l", ylab = "Global_reactive_power", xlab = "datetime"))
 
-#close the PDF file device # Close the PNG device
+# Close the PNG device
 dev.off()  
 
 
