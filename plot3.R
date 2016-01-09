@@ -66,7 +66,7 @@ lines(dt.2007$DateTime,dt.2007$Sub_metering_3, col = "blue")
 legend("topright", lty = "solid", col = c("black", "red", "blue"), 
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
-#close the PDF file device # Close the PNG device
+# Close the PNG device
 dev.off()  
 
 
