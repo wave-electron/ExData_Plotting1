@@ -62,5 +62,5 @@ dev.copy(png, file = "plot1.png", width = 480, height = 480, units='px') # Copy 
 hist(dt.2007$Global_active_power, main="Global Active Power",
      col = "red", xlab = "Global Active Power (kilowatts)", ylab = "Frequency")
 
-#close the PDF file device # Close the PNG device
+# Close the PNG device
 dev.off()  
